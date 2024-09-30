@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "../../../../node_modules/react-router-dom";
 import myPic from "../../../assets/img/mypic.jpg";
 
 const About = () => {

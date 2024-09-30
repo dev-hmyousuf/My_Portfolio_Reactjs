@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '../../../../node_modules/react-router-dom';
 import blog1 from '../../../assets/img/Blog/blog1.png'
 
 const Blog = () => {

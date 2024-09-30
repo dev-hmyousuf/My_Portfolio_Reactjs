@@ -9,7 +9,7 @@ import {
   FaRocket,
   FaUser,
 } from "react-icons/fa"; // Importing some icons from react-icons
-import { Link } from "react-router-dom";
+import { Link } from "../../../../node_modules/react-router-dom";
 
 const servicesData = [
   {
