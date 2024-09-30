@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '../../../../node_modules/react-router-dom';
 import Project1 from '../../../assets/img/mockup.png';
 import Project2 from '../../../assets/img/ca.png';
 import Slider from 'react-slick';
