@@ -14,6 +14,7 @@ export default {
         inter: ['"Inter"', 'sans-serif'],
         poppins: ['"Poppins"', 'sans-serif'],
         syne: ['"Syne"', 'sans-serif'],
+        handleeRegular: ["Handlee", "cursive", 'sans-serif'],
       },
     },
   },

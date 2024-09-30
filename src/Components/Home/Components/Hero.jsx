@@ -1,5 +1,5 @@
-import { Link } from '../../../node_modules/react-router-dom'
-import myPic from '../../assets/img/mypic.jpg'
+import { Link } from '../../../../node_modules/react-router-dom'
+import myPic from '../../../assets/img/mypic.jpg'
 import { FaBehance, FaFacebookF, FaGithub, FaLinkedinIn } from 'react-icons/fa6'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,7 +24,7 @@ const Hero = () => {
     <>
     
       {/* Hero section start */}
-      <section className="w-[90%] mx-auto h-screen ">
+      <section className="w-[90%] mx-auto p-6 ">
         <div className="container">
           <div className="grid grid-cols-1 2xl:-mx-4">
             <div className="xl:pt-12">
@@ -47,7 +47,7 @@ const Hero = () => {
                 Hello, I’m
               </span>
               <h1
-                className="relative z-[1] font-syne text-black-800 font-bold text-[80px] lg:text-[100px] xl:text-[120px] 2xl:text-[140px] leading-[64px] lg:leading-[80px] xl:leading-[90px] 2xl:leading-[110px] 2xl:before:w-[120px] xl:before:w-[100px] 2xl:before:h-[120px] xl:before:h-[100px] before:rounded-full before:bg-primary before:block before:absolute before:top-[0px] before:left-0 before:-z-[1] lg:before:w-[85px] lg:before:h-[85px] before:w-[70px] before:h-[70px]"
+                className="relative z-[1] font-handleeRegular text-black-800 font-bold text-[80px] lg:text-[100px] xl:text-[120px] 2xl:text-[140px] leading-[64px] lg:leading-[80px] xl:leading-[90px] 2xl:leading-[110px] 2xl:before:w-[120px] xl:before:w-[100px] 2xl:before:h-[120px] xl:before:h-[100px] before:rounded-full before:bg-primary before:block before:absolute before:top-[0px] before:left-0 before:-z-[1] lg:before:w-[85px] lg:before:h-[85px] before:w-[70px] before:h-[70px]"
                 data-aos="fade-right"
                 data-aos-delay={400}
               >
@@ -72,7 +72,7 @@ const Hero = () => {
                 data-aos="fade-right"
                 data-aos-delay={800}
               >
-                Current Working at{" "}
+                <span className='text-indigo-600 border-b-2 border-gray-600'>Founder</span> & <span className='text-indigo-600 border-b-2 border-gray-600'>Frontend Dev</span> at{" "}
                 <a
                   href="https://connectagency.vercel.app"
                   className="text-indigo-500"

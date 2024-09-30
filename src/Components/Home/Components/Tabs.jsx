@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { FaCss3, FaGitAlt, FaGithub, FaHtml5, FaJs } from "react-icons/fa6";
-import aiIcon from "../../assets/img/Brand/illustrator.png";
-import psIcon from "../../assets/img/Brand/photoshop.png";
-import tailwindIcon from "../../assets/img/Brand/tailwind-css.svg";
-import vsCodeIcon from "../../assets/img/Brand/visual-studio-code.svg";
+import aiIcon from "../../../assets/img/Brand/illustrator.png";
+import psIcon from "../../../assets/img/Brand/photoshop.png";
+import tailwindIcon from "../../../assets/img/Brand/tailwind-css.svg";
+import vsCodeIcon from "../../../assets/img/Brand/visual-studio-code.svg";
 
 const skills = [
   {
@@ -130,7 +130,7 @@ const Tabs = () => {
   return (
     <>
       {/* Tabs Start */}
-      <section className="featured-properties bg-gray-200 my-20 py-20 ">
+      <section className="featured-properties bg-gray-200 mt-20 py-20 ">
         <div className="container w-[90%] mx-auto">
           <div className="grid grid-cols-12 lg:gap-[60px] xl:gap-[100px] 2xl:gap-[134px]">
             <div
