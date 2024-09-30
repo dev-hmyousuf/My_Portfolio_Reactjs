@@ -54,7 +54,7 @@ const testimonialsData = [
   
   const Testimonial = () => {
     return (
-      <section className="bg-white py-[120px] testimonial" data-aos="fade-up">
+      <section className="w-full bg-white py-[120px] testimonial" data-aos="fade-up">
         <div className="px-8 xl:pr-0 xl:pl-[4%] 2xl:pl-[6%] 3xl:pl-[17%]">
           <div className="flex flex-col xl:flex-row gap-x-[55px] 2xl:gap-x-[100px] 3xl:gap-x-[165px]">
             <div className="font-bold font-syne leading-none flex flex-wrap flex-col gap-y-2 md:text-center xl:text-left mb-10">

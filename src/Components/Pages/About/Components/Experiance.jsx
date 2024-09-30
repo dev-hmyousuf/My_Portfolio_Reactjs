@@ -3,7 +3,7 @@ const Experiance = () => {
   return (
     < >
         <div>
-  <section className="bg-white py-[120px] overflow-x-hidden">
+  <section className="w-full bg-white py-[120px] overflow-x-hidden">
     <div
       className="container w-[90%] mx-auto"
       data-aos="zoom-out"

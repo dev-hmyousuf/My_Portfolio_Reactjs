@@ -130,7 +130,7 @@ const Tabs = () => {
   return (
     <>
       {/* Tabs Start */}
-      <section className="featured-properties bg-gray-200 mt-20 py-20 ">
+      <section className="featured-properties w-full bg-gray-200 mt-20 py-20 ">
         <div className="container w-[90%] mx-auto">
           <div className="grid grid-cols-12 lg:gap-[60px] xl:gap-[100px] 2xl:gap-[134px]">
             <div

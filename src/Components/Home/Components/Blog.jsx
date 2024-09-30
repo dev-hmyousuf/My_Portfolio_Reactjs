@@ -41,7 +41,7 @@ const Blog = () => {
   return (
     <>
       <div>
-        <section className="bg-white py-[120px]">
+        <section className="w-full bg-white py-[120px]">
           <div className="container w-[90%] mx-auto">
             <div className="grid grid-cols-12">
               <div className="col-span-12" data-aos="fade-up">

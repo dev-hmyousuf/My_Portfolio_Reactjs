@@ -24,8 +24,8 @@ const Hero = () => {
     <>
     
       {/* Hero section start */}
-      <section className="w-[90%] mx-auto p-6 ">
-        <div className="container">
+      <section className="w-full p-6 ">
+        <div className="container w-[90%] mx-auto">
           <div className="grid grid-cols-1 2xl:-mx-4">
             <div className="xl:pt-12">
               <span

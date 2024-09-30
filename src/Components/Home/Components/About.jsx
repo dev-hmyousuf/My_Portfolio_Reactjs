@@ -12,11 +12,11 @@ const About = () => {
     <>
       {/* About Us Sectin Start */}
       <section
-        className="w-[90%] mx-auto "
+        className="w-full "
         data-aos="zoom-out"
         data-aos-delay={300}
       >
-        <div className="container">
+        <div className="container w-[90%] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[60px] xl:gap-[134px]">
             <div className="relative">
               <img src={myPic} alt="" />

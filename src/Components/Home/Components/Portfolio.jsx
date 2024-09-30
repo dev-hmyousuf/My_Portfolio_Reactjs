@@ -48,7 +48,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section className="bg-secondary py-[120px] bg-mainBg">
+    <section className="bg-secondary w-full py-[120px] bg-mainBg">
       <div className="container mx-auto w-[90%]">
         <div className="w-full flex flex-col justify-between items-center slider-container gap-6">
           <div className="col-span-12" data-aos="fade-up">

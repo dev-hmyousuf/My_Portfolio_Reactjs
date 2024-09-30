@@ -52,8 +52,8 @@ const Service = () => {
     });
   }, []);
   return (
-    <section className="py-[120px] w-[90%] mx-auto">
-      <div className="container">
+    <section className="py-[120px] w-full">
+      <div className="container w-[90%] mx-auto">
         <div
           className="grid grid-cols-12 gap-6 2xl:gap-0 mb-12 items-center"
           data-aos="fade-up"

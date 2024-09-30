@@ -5,7 +5,7 @@ const Overview = () => {
   return (
     <div>
   <section
-    className="bg-secondary pt-20 pb-[120px]"
+    className="bg-secondary w-full pt-20 pb-[120px]"
     data-aos="zoom-in"
   >
     <div className="container w-[90%] mx-auto ">
