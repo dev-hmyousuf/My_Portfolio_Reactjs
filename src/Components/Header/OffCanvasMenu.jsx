@@ -22,7 +22,7 @@ const OffCanvasMenu = ({ isOpen, onLinkClick }) => {
 
   return (
     <div>
-      <div className={`fixed z-[99999] w-3/4 top-0 right-0 h-full justify-between bg-black p-6 transition-transform duration-300 flex-col md:flex gap-3 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className={`fixed z-[99999] w-[90%] top-0 right-0 h-full justify-between bg-black p-6 transition-transform duration-300 flex-col md:flex gap-3 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="flex-1">
           <div className="flex justify-between items-center mb-6">
             <Link to="/" className="inline-flex items-center gap-3 px-3 text-2xl font-semibold text-dark dark:text-white">
